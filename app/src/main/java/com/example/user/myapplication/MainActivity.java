@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button.setOnClickListener(this);
         button2.setOnClickListener(this);
 
+        Log.d("my_tag","Test");
+
     }
 
     @Override
